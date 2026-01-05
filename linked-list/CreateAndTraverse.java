@@ -13,7 +13,7 @@ class Node {
     int data;        // stores value of the node
     Node next;       // stores reference to next node
 
-    // Constructor runs when a node is created
+
     Node(int value) {
         this.data = value;   // assign value to data
         this.next = null;    // next is null initially
